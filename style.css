@@ -1,0 +1,96 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+header{
+  width: 100vw;
+  display: flex;
+  margin: 10px;
+}
+ul{
+  width: 100vw;
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  padding-right: 20px;
+  overflow: auto;
+}
+li{
+  font-size: 23px;
+  padding:20px;
+}
+header ul{
+  display: flex;
+  justify-content: flex-end;
+}
+.image{
+  padding-left: 50px;
+}
+h1{
+  text-align: center;
+  padding: 30px;
+  font-weight: 200;
+}
+h1 img{
+  background-color: red;
+  border-radius:7px;
+}
+#p1{
+  width: 300px;
+  text-align: center;
+  margin: auto;
+}
+.button1{
+  height: 40px;
+  width: 300px;
+  margin: 40px 35vw 40px 35vw;
+  background-color: skyblue;
+  border-style: none;
+  border-radius: 7px;
+}
+.containor{
+  width: 450px;
+  margin: auto;
+  display: flex;
+  padding: 10px;
+}
+div h2{
+  width: 110px;
+  height: 60px;
+  padding: 5px;
+}
+.side-image{
+  display: flex;
+  padding: 0px 70px 0px 40px;
+}
+.p2{
+  padding: 10px;
+}
+.all_version_box{
+  width: 48vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.version{
+  width: 200px;
+  height:170px;
+  background-color: skyblue;
+  border-radius: 7px;
+  margin: 15px;
+}
+.vname{
+  text-align: Center;
+}
+.dis{
+  text-align: center;
+  padding-bottom: 10px
+}
+.boxbutton{
+  height: 30px;
+  width: 70px;
+  margin-left:20px;
+  margin-top: 10px;
+  border-style: none;
+  border-radius: 7px;
+}
